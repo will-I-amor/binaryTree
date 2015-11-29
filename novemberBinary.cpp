@@ -54,15 +54,7 @@ void bottomPB(Node* node){//print out BT in postOrder
 		cout<<node->data<<endl;
 	}
 }
-void printPostorder(Node* node) { 
-  if (node == NULL) return;
-  // first recur on both subtrees 
-  printTree(node->left); 
-  printTree(node->right);
 
-  // then deal with the node 
-  cout<<node->data<<endl;
-} 
 int main(){
 	Node* node;
 	node = insert(node, 2);
