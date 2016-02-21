@@ -29,6 +29,11 @@ TreeNode* insert(TreeNode* node, int n){
 }
 int checkLength(TreeNode* root)
     {
+       //注意下面的几个int,不是事先Init，而是用的时候，前面加上Int。
+       //因为我之前出现Bug,就是因为提前Init了几个Int
+       //我写： int leftResult,rightResult;
+       //我并没有给这两个int指定值，所以系统自动分配了几个值给他俩
+       //导致了在有些corner case的情况下，比如只有一个数的时候，会报segmentation fault
         if(root == NULL){ return 0;}
         //int leftResult, rightResult;
         int leftResult = checkLength(root->left);
