@@ -32,3 +32,4 @@
       [-Wreturn-type]
 
 	
+## 怎样用iteration的方式写一个？
