@@ -1,3 +1,4 @@
+/*fast版本用iteration方法，用两个queue，利用queue的先进先出特性*/
 #include <iostream>
 #include <vector>
 #include <queue>
