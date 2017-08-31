@@ -46,3 +46,6 @@
     
     while (!mystack.empty() || current)
     之前错在这里了，没有加||current，循环到根节点的时候stack为空了，直接跳出while loop,导致不能继续行进到右子书
+
+##### MorrisTraversal
+可以参考这个网站http://www.cnblogs.com/AnnieKim/archive/2013/06/15/morristraversal.html
