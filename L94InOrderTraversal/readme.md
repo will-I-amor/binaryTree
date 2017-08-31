@@ -49,3 +49,5 @@
 
 ##### MorrisTraversal
 可以参考这个网站http://www.cnblogs.com/AnnieKim/archive/2013/06/15/morristraversal.html
+
+把图画出来，自己走两遍
