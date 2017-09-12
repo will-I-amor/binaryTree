@@ -1,0 +1,1 @@
+这道题跟求binary tree高度是同样的做法。求height是同样的做法
