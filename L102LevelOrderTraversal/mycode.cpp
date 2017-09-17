@@ -28,7 +28,7 @@ vector<vector<int>> levelOrder(TreeNode* root)
 		while (!myQ.empty())
 		{
 			/*这里注意区分，当myQ里ONLY有1个NULL的情况*/
-      if (myQ.front()==NULL && myQ.size()!=1)
+      			if (myQ.front()==NULL && myQ.size()!=1)
 			{
 				G.push_back(myV);
 				myQ.pop_front();
